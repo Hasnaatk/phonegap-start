@@ -1,0 +1,69 @@
+
+.WrapperPage 	{
+    max-width:46em;
+    margin:auto;
+    box-shadow: 5px 5px 5px #888888;
+		}
+#header	 {
+    background-image: url("./Images/tobyheader.jpg"); <!./ starts from current directory>
+    text-align:center;
+    padding:1px
+   	}
+		
+.Heading {
+    font-size: 20px;
+	}
+		
+.Catopedia {
+    font-family: 'Tangerine', serif;
+    font-size: 75px	;
+    text-shadow: 4px 4px 4px #4cb6ea;
+	   }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #;
+   }
+
+li {
+    float: left;
+   }
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+     }	
+
+li a:hover {
+    background-color: #4cb6ea;
+	   }				
+
+li a:hover:not(.active) {
+    background-color: #111;
+			}
+
+.active {
+    background-color: #4cb6ea;
+	}
+
+#section 	{
+   text-align:center;
+			}
+a {
+text-decoration:none;
+color: inherit; 
+	}
+
+#footer {
+   background-color:#4cb6ea;
+   color:white;
+   text-align:center;
+   clear:both;	
+		}
+
+
